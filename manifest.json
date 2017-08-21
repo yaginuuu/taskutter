@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Taskutter",
     "version": "1.0.1",
-    "description": "ChatWorkのメッセージをマイチャットのタスクに引用できる拡張",
+    "description": "ChatWorkのメッセージをマイチャット(設定したルーム)のタスクに引用できる拡張",
     "content_scripts": [
         {
             "matches": ["https://kcw.kddi.ne.jp/*", "https://www.chatwork.com/*"],
@@ -25,5 +25,3 @@
         "scripts": ["js/background.js"]
     }
 }
-
-
